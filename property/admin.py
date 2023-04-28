@@ -36,4 +36,4 @@ class OwnerAdmin(admin.ModelAdmin):
     list_display = ['name', 'phone_number', 'pure_phone', ]
     raw_id_fields = ['flats']
     inlines = [FlatOwnersline]
-# admin.site.register(Flat, Complaint, FlatAdmin, ComplaintAdmin)
+
